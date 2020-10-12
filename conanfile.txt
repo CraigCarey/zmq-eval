@@ -1,0 +1,6 @@
+[requires]
+zeromq/4.3.3
+cppzmq/4.7.1
+
+[generators]
+cmake_find_package
