@@ -22,3 +22,6 @@ target_link_libraries(hello_zmq_server cppzmq::cppzmq)
 
 add_executable(hello_zmq_client hello_zmq_client.cpp)
 target_link_libraries(hello_zmq_client cppzmq::cppzmq)
+
+add_executable(encryption_demo encryption_demo.cpp)
+target_link_libraries(encryption_demo cppzmq::cppzmq)
